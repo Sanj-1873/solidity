@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "burnToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "createNewToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "purchaseToken",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Modifier.sol": "InheritanceModiferExample"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Modifier.sol": {
+			"keccak256": "0x28104a64608c985030eee42b8e3ae73f72b0146f01e597bf40683d7f50f472db",
+			"urls": [
+				"bzz-raw://02cd44dcfbe4e228cd460cf9512b90a35ff892518f986c2a273e7d48e6a439f5",
+				"dweb:/ipfs/QmS4giZcGPMnjkdHH4s1qtPZPt2Zpmf76AXYJRXghAz6ZQ"
+			]
+		},
+		"contracts/Owned.sol": {
+			"keccak256": "0xeec4691d8fb60aa0136713f8f01ecde4aec97b2b4cd5c35a226e11ff5469992e",
+			"urls": [
+				"bzz-raw://f12bb5405b5a1db5197b201edbee26499897eed0eeaa17e3499eba745e5d3a5d",
+				"dweb:/ipfs/QmQDnHit8VCb7Bed5kKAcxwQTYE3FRqN7wqAEtxpSTFfFv"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Owned.sol": "Owned"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Owned.sol": {
+			"keccak256": "0xeec4691d8fb60aa0136713f8f01ecde4aec97b2b4cd5c35a226e11ff5469992e",
+			"urls": [
+				"bzz-raw://f12bb5405b5a1db5197b201edbee26499897eed0eeaa17e3499eba745e5d3a5d",
+				"dweb:/ipfs/QmQDnHit8VCb7Bed5kKAcxwQTYE3FRqN7wqAEtxpSTFfFv"
+			]
+		}
+	},
+	"version": 1
+}
