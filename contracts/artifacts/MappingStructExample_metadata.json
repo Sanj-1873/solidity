@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.0+commit.26b70077"
+		"version": "0.8.4+commit.c7e474f2"
 	},
 	"language": "Solidity",
 	"output": {
@@ -61,31 +61,17 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "withdrawMoney",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
@@ -105,10 +91,11 @@
 	},
 	"sources": {
 		"contracts/MappingStructExample.sol": {
-			"keccak256": "0xe9f09d0b42205846931cf58bd13c9f6dcf4c1b627f4ddb3fa72ab3535ae343c4",
+			"keccak256": "0xd277cf2fe792961e781f0de66e741e0cf585a19a8748de7e7ba88c69c9e13ba8",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ae5407996562071758adf7c8f78731f1aa446a2a0c5bfdbbdc79c677825561a1",
-				"dweb:/ipfs/QmWkhqz5GHjxRX9qZozEuwevSvbRmvRwbpJtgkoYHhqDnm"
+				"bzz-raw://da1798cbb535637bd2aa7183c126201261eb2f2439d24b21140dd6c78be66f56",
+				"dweb:/ipfs/QmQ9kHRVdmTimLMSbjyy93W2ZQNDBULhWtiWhV3o3CrC6i"
 			]
 		}
 	},

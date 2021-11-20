@@ -1,12 +1,11 @@
 {
 	"compiler": {
-		"version": "0.5.13+commit.5b0b510c"
+		"version": "0.8.4+commit.c7e474f2"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"constant": true,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -18,16 +17,19 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numPayments",
 						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
@@ -37,21 +39,17 @@
 						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [],
 				"name": "sendMoney",
 				"outputs": [],
-				"payable": true,
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [
 					{
 						"internalType": "address payable",
@@ -61,12 +59,10 @@
 				],
 				"name": "withdrawAllMoney",
 				"outputs": [],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [
 					{
 						"internalType": "address payable",
@@ -81,24 +77,30 @@
 				],
 				"name": "withdrawMoney",
 				"outputs": [],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts/MappingStructExample.sol": "MappingsStructExample"
 		},
-		"evmVersion": "petersburg",
+		"evmVersion": "istanbul",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -107,10 +109,11 @@
 	},
 	"sources": {
 		"contracts/MappingStructExample.sol": {
-			"keccak256": "0x2c0af3dd9d9ff5d469df02d17e841ea40675775a4b4b4da8763d1d12e2b50c8e",
+			"keccak256": "0x4276333dac1e5a6db7e1710b34812ef65abf9807940538a760a336fc3f48efdc",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://ac871b2a2c61e756a397df70f7f85cc2a7bdff072338d4a6b6b0c0ee8dfd971a",
-				"dweb:/ipfs/QmTmteBH3L8mhJ8w3m9eseETByQZdVv8bnHqGp2apB25AR"
+				"bzz-raw://fe3e44b3805dcb69839951e1cc50c8506f557c132bf33928781d0ed731ca195a",
+				"dweb:/ipfs/QmdQDs8vP9DJaQn9sBz3nNH7CjUz69BX2cWSXRnVYHPQiF"
 			]
 		}
 	},
