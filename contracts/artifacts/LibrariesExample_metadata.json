@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Libraries.sol": "LibrariesExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Libraries.sol": {
+			"keccak256": "0x811f8f3eec9ce223dcd13546bdab0eab48690768b2705c3a7531d4155980459d",
+			"urls": [
+				"bzz-raw://ac75f99bd7509e361fdd4eb5062759b4d6cece3cc6e3e5e219ba3409e587a071",
+				"dweb:/ipfs/QmUj6FC6AktT6aUe5fcw33RUXUHP4jzEZrBGGKnEmW2hn5"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0xf69db949d9eee4ae27963cd8a5b3c2f68f6d431e63505743c91b59d91fd2403a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://12a99feecf4545396df1f38083f3695e15a843ecb087fe7d19b748aec2c92846",
+				"dweb:/ipfs/QmPjczEhnPGUp4VyWtwfAk5UDdNSLJUE5URNyiqyG4Dayn"
+			]
+		}
+	},
+	"version": 1
+}
