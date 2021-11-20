@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.13+commit.5b0b510c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyContract.sol": {
+			"keccak256": "0xf6e8f37ef42ad5af7165f52768dd16c7acffc14ae327bd52f9ab2aa5d66bdc43",
+			"urls": [
+				"bzz-raw://eb5f461ddd86c35238b39b93a7a3502f2da50a25afba9040ec31ce4ad7d2f4a7",
+				"dweb:/ipfs/QmXAq7SDbf33xfZjKiiQzUSBzT6YcoWWBBAxtJbdrzAQ9u"
+			]
+		}
+	},
+	"version": 1
+}
